@@ -4,6 +4,10 @@ class Car{
         this.currentSpeed = currentSpeed;
     }
 
+    print(){
+        console.log(this.carName);
+    }
+
     // accelerate(){
     //     this.currentSpeed = this.currentSpeed + 10;
     //     // console.log(this.currentSpeed,"km/hr")
@@ -23,8 +27,9 @@ Car.prototype.break = function(){
 }
 
 const car1 = new Car('BMW',100)
+console.dir(car1)
 const car2 = new Car('AUDI',50)
-
+car1.print()
 car1.accelerate()
 car1.accelerate()
 console.log(car1.currentSpeed)

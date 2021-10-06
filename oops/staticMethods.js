@@ -15,6 +15,9 @@ class Squares{
 
 const s1 = new Squares(8)
 const s2 = new Squares(9)
+console.log(s1)
+console.log(s2)
+
 console.log(Squares.equals(s1,s1))
 
 console.log(Squares.isValidSquare(4,5))

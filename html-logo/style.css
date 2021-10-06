@@ -1,0 +1,57 @@
+/* Descendent selectors*/
+
+div p{
+    color:red
+}
+/* div div{
+    color:red
+} */
+/* Child selectors*/
+
+.parent > .child{
+    color:blue
+}
+
+/* div+h3{
+    color: yellow;
+} */
+
+
+div~h3{
+    color: yellow;
+}
+
+/* .parent > .child{
+    color:green
+} */
+
+/* p[lang="en"]{
+    color:pink;
+} */
+
+/* begin*/
+/* p[lang^="ab"]{ 
+    color:pink;
+} */
+
+
+
+/* End*/
+/* p[lang$="c"]{
+    color:pink;
+} */
+
+p[lang*="bc"]{ 
+    color:brown;
+}
+input[type="text"]{
+    color:pink
+}
+
+
+.btn{
+    background-color:red
+}
+.btn:hover{
+    background-color:blue
+}
